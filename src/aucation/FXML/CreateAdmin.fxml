@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import FXMLValidation.*?>
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aucation.Controllers.CreateAdminController">
+      <Label  layoutY="0" layoutX="0"   fx:id="blur" minHeight="650" minWidth="1000"   /> 
+    <Label id="createAdminLABEL" layoutX="100" layoutY="20" text="Admin Personal Data" minHeight="150" minWidth="800"  />
+    
+        <Label layoutX="250" layoutY="190" text="UserName" fx:id="usernameCreateAdmin" />
+        <Label layoutX="250" layoutY="430" text="phone" fx:id="phoneCreateAdmin" />
+        <Label layoutX="250" layoutY="350" text="E-mail" fx:id="emailCreateAdmin" />
+        <Label layoutX="250" layoutY="270" text="password" fx:id="passwordCreateAdmin" />
+    
+        <TextField layoutX="520" layoutY="190" minHeight="16" minWidth="69" fx:id="usernamecreateAdmin" />
+        <PhoneTextField layoutX="520" layoutY="420" minHeight="16" minWidth="69" fx:id="phonecreateAdmin" />
+        <TextField layoutX="520" layoutY="340" minHeight="16" minWidth="69" fx:id="emailcreateAdmin" />
+        <TextField layoutX="520" layoutY="270" minHeight="16" minWidth="69" fx:id="passwordcreateAdmin" />
+        
+        <Button text="Go on!" layoutX="380" layoutY="520" fx:id="createadminbutton" onAction="#createadminbuttonclc"/>
+        <fx:include source="menu.fxml" fx:id="menubar" layoutX="-300"/>
+    <stylesheets>
+        <URL value="@/aucation/CSS/StyleSheet.css"/>
+    </stylesheets>
+</AnchorPane>

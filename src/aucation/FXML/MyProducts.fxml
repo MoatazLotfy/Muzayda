@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1"  fx:controller="aucation.Controllers.MyProductsController" >
+     <Label  layoutY="0" layoutX="0"   fx:id="blur" minHeight="650" minWidth="1000"   />
+  
+    
+<Button fx:id="exit" minWidth="30" maxHeight="30" maxWidth="30" minHeight="30" text="x" onAction="#exit" layoutX="940" layoutY="30"    />
+<ScrollPane prefHeight="520" prefWidth="820" layoutX="90"  layoutY="40">
+<GridPane fx:id="MPGrid"   vgap="40" hgap="27" layoutX="10" layoutY="10" prefWidth="800" prefHeight="500"       >
+   
+   
+   
+</GridPane>
+</ScrollPane>   
+
+
+  <fx:include source="menu.fxml" fx:id="menubar" layoutX="-300"/>
+ <Button text="Owned Products"  fx:id="showproductBTN"  onAction="#showMyproducts" layoutX="530" layoutY="575"/>  
+    <Button text="Add Product"  fx:id="addproductBTN" onAction="#addproductclick" layoutX="780" layoutY="575"   />  
+      <fx:include source="Feedback.fxml" fx:id="feedbackpage"  layoutY="-600"/> 
+ <stylesheets>
+        <URL value="@/aucation/CSS/StyleSheet.css"/>
+    </stylesheets>
+</AnchorPane>

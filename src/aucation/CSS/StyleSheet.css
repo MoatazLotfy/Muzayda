@@ -1,0 +1,357 @@
+.root
+{
+    -fx-border-insets: 23;
+    -fx-background-insets: 23;
+    -fx-background-radius: 6;
+    
+    -fx-border-radius: 6;
+    -fx-border-color: gray;
+    -fx-border-style: solid;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(three-pass-box, rgba(24, 140, 144, 1), 24, 0.5, 0, 0);
+    -fx-font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    -fx-background-image: url('../images/login5.jpg');
+    -fx-background-position: center center;
+    
+
+}
+#exit{
+    -fx-background-radius: 25;
+    -fx-font-weight: bold;
+    -fx-border-radius: 15;
+    -fx-border-color: #188c90;
+    -fx-border-style: solid;
+    -fx-border-width: 3;
+    -fx-font-size: 16pt;
+    -fx-text-fill: #188c90;
+     -fx-padding: -25 -20 -20 -20;
+     -fx-background-color: rgba(0,0,0,0.4);
+    
+}
+#blur{
+    -fx-background-color: rgba(0,0,0,0.5);
+}
+#blury{
+    -fx-background-color: rgba(0,0,0,0.8);
+}
+#LogoLBL{
+    -fx-font-size: 80pt;
+    -fx-font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    -fx-text-fill: #31bfc4;
+    
+    
+}
+
+#LoginBTN, #SignupBTN {
+   
+    -fx-border-color: #188c90;
+    -fx-background-color: rgba(0,0,0,0.3);
+    -fx-border-width: 4;
+    -fx-border-radius: 20;
+    -fx-text-fill: #188c90;
+    -fx-font-size: 16pt;
+    -fx-border-style: solid;
+    -fx-background-radius: 20;
+    
+    
+}
+#LoginBTN:hover, #SignupBTN:hover{
+    -fx-border-color: #31bfc4;
+    -fx-text-fill: #31bfc4;
+}
+#UserTXT , #PassTXT {
+    -fx-border-color: transparent transparent #188c90 transparent;
+    -fx-border-width: 5;
+    -fx-border-radius: 1;
+    -fx-font-size: 14pt;
+    -fx-background-color: rgba(0,0,0,0.3);
+    -fx-text-fill: #31bfc4;
+    
+    
+    
+}
+#p1 , #p2, #p3 , #p4 {
+    -fx-font-size: 50pt;
+    -fx-text-fill: rgba(0,0,0,0.2);
+}
+#SignLBL{
+    -fx-font-size: 16pt;
+    -fx-text-fill: white;
+    
+}
+
+#PNameLBL, #PPassLBL, #PEmailLBL{
+    -fx-text-fill: #31bfc4;
+    -fx-font-size: 20pt;
+    -fx-background-color: transparent;
+    -fx-background-radius: 10;
+}
+#edit, #saveedit{
+    -fx-text-fill: #188c90;
+    -fx-font-size: 20pt;
+    -fx-background-color: rgba(0,0,0,0.7);
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: #188c90;
+    -fx-border-width: 4;
+}
+#ENameTXT, #EPassTXT, #EEmailTXT, #EPhoneTXT, #ECityTXT, #ECreditTXT{
+    -fx-border-color: transparent transparent grey transparent;
+    -fx-border-width: 5;
+    -fx-border-radius: 1;
+    -fx-font-size: 14pt;
+    -fx-background-color: rgba(0,0,0,0.6);
+    -fx-text-fill: #31bfc4;
+    
+}
+#BB{
+    -fx-background-color: rgba(0,0,0,0.7);
+    -fx-background-radius: 100;
+}
+
+#menuLBL{
+    -fx-background-color: rgba(0,0,0,0.7);
+}
+#hamb{
+    -fx-background-color: rgba(0,0,0,0.4);
+    -fx-background-radius:0 20 20 0;
+    -fx-text-fill: #188c90;
+    -fx-font-size: 40pt;
+ 
+}
+#signout , #myproducts, #mail, #feedback,#market, #Profile,#Statistics,#showreports, #showfeedback, #controlusers,#CreateAdmin{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill: #31bfc4;
+    -fx-font-size: 16pt;
+}
+
+#feedback{
+    -fx-background-color: rgba(0,0,0,0.4);
+    -fx-border-color: transparent;
+    -fx-font-size: 12pt;
+}
+
+#signout:hover , #myproducts:hover, #mail:hover, #feedback:hover,#market:hover, #Profile:hover,#Statistics:hover,#showreports:hover, #showfeedback:hover,#controlusers:hover,#CreateAdmin:hover{
+     -fx-background-color: rgba(0,0,0,0.7);
+   
+}
+
+
+#signupLBL{
+    -fx-font-size: 60pt;
+    -fx-text-fill: white;
+    -fx-alignment: CENTER;
+    
+}
+#signupback{
+    -fx-background-color: rgba(24,140,144,0.7);
+}
+#usernameLBL,#passwordLBL,#phoneLBL,#emailLBL,#creditLBL,#cityLBL{
+    -fx-font-size: 30px;
+    -fx-text-fill:  #31bfc4;
+    
+}
+
+
+
+
+#usernameTXT,#passwordTXT,#phoneTXT,#emailTXT,#creditTXT,#cityTXT{
+    -fx-text-inner-color: rgb(24,140,144);
+    -fx-min-height:40px;
+    -fx-min-width:250px;
+    -fx-border-color: rgba(24,140,144,1);
+    -fx-background-color: rgba(0,0,0,0.7);
+    -fx-border-width: 3;
+    -fx-font-size: 14;
+
+}
+
+#Coninuebutton{
+        -fx-background-color:  rgb(24,140,144);
+       -fx-background-radius: 30px;  
+       -fx-text-fill: white; 
+       -fx-font-size:25px;
+
+}
+#Coninuebutton:hover{
+    -fx-background-color: #31bfc4;
+}
+
+
+
+#feedbackLBL{
+    -fx-background-color: rgba(0,0,0,0.7);
+
+}
+#feedbackTXT{
+     -fx-border-color: #188c90;
+    -fx-border-width: 4;
+}
+#feedbackTXT .content, #feedbackTXT .viewport, #feedbackTXT{
+    -fx-text-fill: #31bfc4;
+    -fx-font-size: 16pt;
+    -fx-background-color: rgba(0,0,0,0.3);
+    -fx-border-radius: 5;
+   
+}
+
+
+#feedbackTXT .scroll-bar .increment-button , #feedbackTXT .scroll-bar .decrement-button, #feedbackTXT .scroll-bar {
+  -fx-background-color: rgba(0,0,0,0.6);
+  -fx-text-fill: #31bfc4;
+}
+
+
+#feedbackTXT .scroll-bar:vertical .track-background {
+  -fx-background-color: rgba(0,0,0,0.3);
+}
+
+#feedbackTXT.scroll-bar:vertical .track {
+  -fx-background-color: rgba(0,0,0,0.3);
+}
+
+#feedbackTXT .scroll-bar:vertical .thumb {
+  -fx-background-color: #31bfc4;
+}
+
+#submitfeedback{
+    -fx-border-color: #188c90;
+    -fx-background-color: rgba(0,0,0,0.3);
+    -fx-border-width: 4;
+    -fx-border-radius: 20;
+    -fx-text-fill: #188c90;
+    -fx-font-size: 14pt;
+    -fx-border-style: solid;
+    -fx-background-radius: 20;
+}
+
+#addproductBTN, #showproductBTN,#selectimage,#submitaddproduct{
+    -fx-border-color: #188c90;
+    -fx-background-color: rgba(0,0,0,0.3);
+    -fx-border-width: 4;
+    -fx-border-radius: 20;
+    -fx-text-fill: #188c90;
+    -fx-font-size: 16pt;
+    -fx-border-style: solid;
+    -fx-background-radius: 20;
+}
+#addproductname, #addproductdescription, #startprice, #durationperdays{
+    -fx-border-color: transparent transparent #188c90 transparent;
+    -fx-border-width: 5;
+    -fx-border-radius: 1;
+    -fx-font-size: 14pt;
+    -fx-background-color: rgba(0,0,0,0.3);
+    -fx-text-fill: #31bfc4;
+    
+}
+#imageLBL{
+    -fx-border-color: transparent;
+    -fx-background-radius: 20;
+    -fx-font-size: 16pt;
+    -fx-background-color: rgba(0,0,0,0.6);
+    -fx-text-fill: #31bfc4;
+    
+}
+#MPGrid{
+    -fx-background-color: rgba(0,0,0,0.3);
+}
+
+#PDescription, #PHPrice, #Px, #Pbid, #PBPrice,#SubmitReport{
+    
+    -fx-background-color:rgba(0,0,0,0.6);
+    -fx-text-fill:#188c90;
+    -fx-font-size: 14pt;
+    -fx-border-color: #188c90;
+}
+#popuppane{
+    -fx-background-color:rgba(0,0,0,0.9);
+}
+#mailpane, #showfeedbak{
+    -fx-background-color: rgba(0,0,0,.6);
+    -fx-text-alignment: left;
+    -fx-font-size: 20px;
+}
+#hamb StackPane{
+     -fx-background-color:#188c90;
+}
+#ReportReason{
+     -fx-border-color: #188c90;
+    -fx-border-width: 4;
+}
+#ReportReason .content, #ReportReason .viewport, #ReportReason{
+    -fx-text-fill: #31bfc4;
+    -fx-font-size: 16pt;
+    -fx-background-color: rgba(0,0,0,0.3);
+    -fx-border-radius: 5;
+   
+}
+
+
+#ReportReason .scroll-bar .increment-button , #ReportReason .scroll-bar .decrement-button, #ReportReason .scroll-bar {
+  -fx-background-color: rgba(0,0,0,0.6);
+  -fx-text-fill: #31bfc4;
+}
+
+
+#ReportReason .scroll-bar:vertical .track-background {
+  -fx-background-color: rgba(0,0,0,0.3);
+}
+
+#ReportReason.scroll-bar:vertical .track {
+  -fx-background-color: rgba(0,0,0,0.3);
+}
+
+#ReportReason .scroll-bar:vertical .thumb {
+  -fx-background-color: #31bfc4;
+}
+
+#BuyerRadio,#SellerRadio{
+    -fx-text-fill: #31bfc4;
+    -fx-font-size:20pt;
+}
+#ControlUserVBox{
+    -fx-background-color: transparent;
+}
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+.scroll-pane {
+   -fx-background-color: transparent;
+   
+}
+#reasonforreportVbox{
+	-fx-background-color: rgba(0,0,0,.6);
+    -fx-text-alignment: left;
+    -fx-font-size: 20px;
+}
+#createAdminLABEL{
+    -fx-background-color: #188c90;
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+    -fx-font-size: 50px;
+}
+#usernameCreateAdmin,#passwordCreateAdmin,#phoneCreateAdmin,#emailCreateAdmin{
+    -fx-font-size: 30px;
+    -fx-text-fill:  #31bfc4;
+}
+
+#usernamecreateAdmin,#phonecreateAdmin,#emailcreateAdmin,#passwordcreateAdmin{
+    -fx-text-inner-color: rgb(24,140,144);
+    -fx-min-height:40px;
+    -fx-min-width:250px;
+    -fx-border-color: rgba(24,140,144,1);
+    -fx-background-color: rgba(0,0,0,0.7);
+    -fx-border-width: 0;
+    -fx-font-size: 14;
+}
+#createadminbutton{
+    -fx-text-inner-color: rgb(24,140,144);
+    -fx-min-height:50px;
+    -fx-min-width:250px;
+    -fx-border-color: rgba(24,140,144,1);
+    -fx-background-color: rgba(0,0,0,0.7);
+    -fx-font-size: 20pt;
+    -fx-text-fill:  #31bfc4;
+
+}

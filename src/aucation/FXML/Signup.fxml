@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import FXMLValidation.*?>
+<AnchorPane  id="AnchorPane"  prefHeight="700" prefWidth="900" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aucation.Controllers.SignupController">
+      
+    <children>
+       
+         <Label  layoutY="0" layoutX="0"   fx:id="blur" minHeight="650" minWidth="1000"   />
+
+    
+        <Label id="signupback" layoutX="0" layoutY="0" minHeight="150" minWidth="1000"  />
+        <Button fx:id="exit" minWidth="30" maxHeight="30" maxWidth="30" minHeight="30" text="x" onAction="#exit" layoutX="940" layoutY="30"    />
+        <Label layoutX="330" layoutY="20" text="Sign Up" minHeight="16" minWidth="69" fx:id="signupLBL" />
+        <Label layoutX="200" layoutY="160" text="UserName" minHeight="16" minWidth="69" fx:id="usernameLBL" />
+        <Label layoutX="200" layoutY="220" text="password" minHeight="16" minWidth="69" fx:id="passwordLBL" />
+        <Label layoutX="200" layoutY="280" text="Phone" minHeight="16" minWidth="69" fx:id="phoneLBL" />
+        <Label layoutX="200" layoutY="340" text="E-mail" minHeight="16" minWidth="69" fx:id="emailLBL" />
+        <Label layoutX="200" layoutY="400" text="Credit Card Number" minHeight="16" minWidth="69" fx:id="creditLBL" />
+        <Label layoutX="200" layoutY="460" text="City" minHeight="16" minWidth="69" fx:id="cityLBL" />
+        <TextField layoutX="520" layoutY="160" minHeight="16" minWidth="69" fx:id="usernameTXT" />
+        <TextField layoutX="520" layoutY="220" minHeight="16" minWidth="69" fx:id="passwordTXT" />
+        <PhoneTextField layoutX="520" layoutY="280" minHeight="16" minWidth="69" fx:id="phoneTXT" />
+        <TextField layoutX="520" layoutY="340" minHeight="16" minWidth="69" fx:id="emailTXT" />
+        <TextField layoutX="520" layoutY="400" minHeight="16" minWidth="69" fx:id="creditTXT" />
+        <StringTextField layoutX="520" layoutY="460" minHeight="16" minWidth="69" fx:id="cityTXT" />
+        <Button layoutX="420" layoutY="570" text="Continue" fx:id="Coninuebutton" onAction="#register" />
+        
+          
+  <RadioButton  fx:id="BuyerRadio" layoutX="300" layoutY="520.0" text="Buyer" selected="true">
+			<toggleGroup>
+				<ToggleGroup fx:id="toggle1" />
+			</toggleGroup>
+		</RadioButton>
+		<RadioButton  fx:id="SellerRadio" layoutX="560.0" layoutY="520.0"  text="Seller" toggleGroup="$toggle1" />
+    
+</children>
+
+<stylesheets>
+<java.net.URL value ="@../CSS/StyleSheet.css"/>
+</stylesheets>
+
+</AnchorPane>
+  

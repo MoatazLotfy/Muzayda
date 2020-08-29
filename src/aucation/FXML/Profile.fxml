@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import FXMLValidation.*?>
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aucation.Controllers.ProfileController">
+   
+    
+     <Label  layoutY="0" layoutX="0"   fx:id="blur" minHeight="650" minWidth="1000"   />
+    
+    
+    <fx:include source="menu.fxml" fx:id="menubar" layoutX="-300"/>
+    <Button fx:id="exit" minWidth="30" maxHeight="30" maxWidth="30" minHeight="30" text="x" onAction="#exit" layoutX="940" layoutY="30"    />
+    <Button text="edit" fx:id="edit" layoutX="515" layoutY="500" onAction="#editclick" />
+    <Button text="save" fx:id="saveedit" layoutX="385" layoutY="500" onAction="#saveeditclick"   />
+    <TextField layoutX="350" layoutY="100" minWidth="300"  fx:id="ENameTXT" disable="true" />
+    <TextField layoutX="350" layoutY="160" fx:id="EPassTXT" minWidth="300" disable="true" />
+    <PhoneTextField layoutX="350" layoutY="220" fx:id="EPhoneTXT" minWidth="300" disable="true"   />
+    <TextField layoutX="350" layoutY="280" fx:id="EEmailTXT" minWidth="300" disable="true"   />
+    <TextField layoutX="350" layoutY="340" fx:id="ECreditTXT" minWidth="300" disable="true" />
+    <StringTextField layoutX="350" layoutY="400" fx:id="ECityTXT" minWidth="300" disable="true"  />
+   <fx:include source="Feedback.fxml" fx:id="feedbackpage"  layoutY="-600"/>
+
+    
+    <stylesheets>
+        <URL value="@../CSS/StyleSheet.css"/>
+    </stylesheets>
+</AnchorPane>

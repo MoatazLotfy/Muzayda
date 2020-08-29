@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import FXMLValidation.*?>
+<?import FXMLValidation.*?>
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aucation.Controllers.AddProductController">
+   <Label  layoutY="0" layoutX="0"   fx:id="blur" minHeight="650" minWidth="1000"   />
+    <Button fx:id="exit" minWidth="30" maxHeight="30" maxWidth="30" minHeight="30" text="x" onAction="#exit" layoutX="940" layoutY="30"    />
+      <fx:include source="menu.fxml" fx:id="menubar" layoutX="-300"/>
+    <TextField promptText="Product Name" fx:id="addproductname" layoutX="400" minWidth="100" layoutY="150"/>
+     <TextField promptText="Product Description" fx:id="addproductdescription" layoutX="400" minWidth="100" layoutY="230"    />
+     <NumberTextField promptText="Start Price" fx:id="startprice" layoutX="400" minWidth="100" layoutY="310"  />
+     <NumberTextField promptText="Duration per days" fx:id="durationperdays" layoutX="400" minWidth="100" layoutY="390"   />
+     <Button text="select image" fx:id="selectimage" onAction="#selectimageclick"  layoutX="500"  minWidth="60" layoutY="470"/> 
+     <Label text="your image" fx:id="imageLBL" layoutX="370" minWidth="130" maxWidth="130" layoutY="480" /> 
+     <Button text="submit" onAction="#add" fx:id="submitaddproduct" layoutX="400" minWidth="100" layoutY="550"/>
+      
+       <fx:include source="Feedback.fxml" fx:id="feedbackpage"  layoutY="-600"/>
+
+    <stylesheets>
+        <URL value="@/aucation/CSS/StyleSheet.css"/>
+    </stylesheets>
+</AnchorPane>
