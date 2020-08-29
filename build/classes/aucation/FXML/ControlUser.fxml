@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="ControlUserAnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aucation.Controllers.ControlUserController">
+     <Label  layoutY="0" layoutX="0"   fx:id="blur" minHeight="650" minWidth="1000"   />
+     <Button fx:id="exit" minWidth="30" maxHeight="30" maxWidth="30" minHeight="30" text="x" onAction="#exit" layoutX="940" layoutY="30"    />
+     <ScrollPane  prefHeight="450" prefWidth="610" layoutY="100" layoutX="200" fx:id="ControlUserscroll" > 
+        <content>
+     <VBox spacing="10" fx:id="ControlUserVBox" prefHeight="50.0" prefWidth="600.0"   >
+         
+     </VBox>
+        </content>
+     </ScrollPane>
+ <fx:include source="menu.fxml" fx:id="menubar" layoutX="-300"/>
+    <stylesheets>
+        <URL value="@/aucation/CSS/StyleSheet.css"/>
+    </stylesheets>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aucation.Controllers.ReasonforreportsfinalController">
+    <Label  layoutY="00" layoutX="000"   fx:id="blury" minHeight="500" minWidth="800"  />
+    <Button fx:id="Px" text="x" minWidth= "30" minHeight= "30"  layoutX="750" layoutY="30" onAction="#closepopUp"  /> 
+    <ScrollPane  prefHeight="400" prefWidth="675" layoutX="50" layoutY="80" fx:id="reasonforreportscrollpane"> 
+        <content>
+            <VBox spacing="2" layoutX="355" layoutY="140" fx:id="reasonforreportVbox"> 
+                <children>
+                    
+                </children>
+            </VBox>
+        </content>
+    </ScrollPane>
+    
+    <stylesheets>
+        <URL value="@/aucation/CSS/StyleSheet.css"/>
+    </stylesheets>
+</AnchorPane>

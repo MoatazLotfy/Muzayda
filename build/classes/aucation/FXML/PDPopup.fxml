@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import FXMLValidation.*?>
+<AnchorPane fx:id="popuppane" prefHeight="500.0" prefWidth="800.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aucation.Controllers.PDPopupController">
+    <Label  layoutY="0" layoutX="0"   fx:id="blury" minHeight="500" minWidth="800"  />
+    <Label fx:id="PDescription" text="Description" minWidth= "300" minHeight= "200" layoutX="250" layoutY="50"     />
+    <Label fx:id="PHPrice" text="Highest price" minWidth= "300" minHeight= "50"  layoutX="250" layoutY="270"  />
+    <Button fx:id="Px" text="x" minWidth= "30" minHeight= "30"  layoutX="750" layoutY="30" onAction="#closepopUp"  /> 
+    <Button fx:id="Pbid" text="Bid" minWidth= "100" minHeight= "50"  layoutX="450" layoutY="340"  onAction="#PBidClick" /> 
+    <NumberTextField fx:id="PBPrice" promptText="new price" minWidth="100" maxWidth="100"  minHeight="50"   layoutX="250" layoutY="340"  />
+    
+    <stylesheets>
+        <URL value="@/aucation/CSS/StyleSheet.css"/>
+    </stylesheets>
+</AnchorPane>

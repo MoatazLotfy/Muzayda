@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<AnchorPane fx:id="ba" prefHeight="600.0" prefWidth="1000.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aucation.Controllers.feedbackController">
+     <Label  layoutY="0"   fx:id="feedbackLBL" minHeight="600" minWidth="1000"   />   
+    <Button text="Leave Feedback" fx:id="feedback"  layoutY="600" minWidth="200" maxWidth="200" minHeight="30" maxHeight="40" layoutX="400"   onAction="#feedbackclick"    />
+    <TextArea promptText="Help us to improve the program" minWidth="700" maxWidth="700"  minHeight="400" maxHeight="400"  fx:id="feedbackTXT" layoutX="150" layoutY="50" wrapText="true" />
+    <Button text="Submit" onAction="#feedb"  fx:id="submitfeedback" layoutX="455" layoutY="460"    />
+  
+     
+    <stylesheets>
+        <URL value="@/aucation/CSS/StyleSheet.css"/>
+    </stylesheets>
+</AnchorPane>

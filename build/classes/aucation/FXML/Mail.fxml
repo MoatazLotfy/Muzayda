@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aucation.Controllers.MailController">
+   <Label  layoutY="0" layoutX="0"   fx:id="blur" minHeight="650" minWidth="1000"   />
+    <Button fx:id="exit" minWidth="30" maxHeight="30" maxWidth="30" minHeight="30" text="x" onAction="#exit" layoutX="940" layoutY="30"    />
+    
+<ScrollPane  prefHeight="530" prefWidth="680" layoutX="280" layoutY="80" fx:id="mailscroll"> 
+        <content>
+            <VBox prefHeight="530" spacing="10" prefWidth="670" layoutX="355" layoutY="140" fx:id="mailpane"> 
+                <children>
+                    
+                </children>
+            </VBox>
+        </content>
+    </ScrollPane>
+    <fx:include source="menu.fxml" fx:id="menubar" layoutX="-300"/>
+     <fx:include source="Feedback.fxml" fx:id="feedbackpage"  layoutY="-600"/>
+
+    <stylesheets>
+        <URL value="@../CSS/StyleSheet.css"/>
+    </stylesheets>
+</AnchorPane>

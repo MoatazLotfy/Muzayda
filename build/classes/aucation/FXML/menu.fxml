@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<AnchorPane fx:id="menulayout" prefHeight="400.0" prefWidth="300.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aucation.Controllers.menuController">
+    
+   
+    <Label  layoutY="0"   fx:id="menuLBL" minHeight="650" minWidth="300"   />
+    <JFXHamburger fx:id="hamb" prefHeight="50.0" prefWidth="50.0" layoutX="300" layoutY="25" onMouseClicked="#menuclick"  />     
+    <Button text="Profile" fx:id="Profile"  layoutY="150" minWidth="300" maxWidth="300" minHeight="50" maxHeight="50"  onAction="#Profileclick"    />
+    <Button text="My Products" fx:id="myproducts"  layoutY="200" minWidth="300" maxWidth="300" minHeight="50" maxHeight="50" onAction="#myproductsclick"/>
+    <Button  text="Create admin" fx:id="CreateAdmin" layoutY="200" minWidth="300" maxWidth="300" minHeight="50" maxHeight="50" onAction="#CreateAdminclick" />       
+     <Button text="Control users" fx:id="controlusers"  layoutY="250" minWidth="300" maxWidth="300" minHeight="50" maxHeight="50" onAction="#ControlUsersclick"/>
+    <Button text="Mail" fx:id="mail"  layoutY="250" minWidth="300" maxWidth="300" minHeight="50" maxHeight="50" onAction="#mailclick"     />
+    <Button text="Market" fx:id="market"  layoutY="300" minWidth="300" maxWidth="300" minHeight="50" maxHeight="50" onAction="#marketclick"     />
+     <Button text="Show reports" fx:id="showreports"  layoutY="300" minWidth="300" maxWidth="300" minHeight="50" maxHeight="50" onAction="#showreportsclick"     />
+      <Button text="Show feedback" fx:id="showfeedback"  layoutY="350" minWidth="300" maxWidth="300" minHeight="50" maxHeight="50" onAction="#showfeedbackclick"     />
+    <Button text="Results" fx:id="Statistics"  layoutY="350" minWidth="300" maxWidth="300" minHeight="50" maxHeight="50" onAction="#statisticsclick"     />
+    <Button text="Sign out" fx:id="signout"  layoutY="400" minWidth="300" maxWidth="300" minHeight="50" maxHeight="50"  onAction="#signoutclick"    />
+      
+    <stylesheets>
+        <URL value="@/aucation/CSS/StyleSheet.css"/>
+    </stylesheets>
+</AnchorPane>
